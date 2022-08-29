@@ -1,0 +1,72 @@
+.basic
+    padding-top: 130rem
+    padding-bottom: 45rem
+    &-webp
+        background: url(../img/basic/bg.webp) center no-repeat
+        background-size: cover
+    &-nowebp
+        background: url(../img/basic/bg.jpg) center no-repeat
+        background-size: cover
+    &-container
+        width: 1140rem
+        margin: 0 auto
+    &-text
+        &__title
+            font-weight: 400
+            font-size: 56rem
+            line-height: 54rem
+            text-align: center
+            color: #FFFFFF
+            span
+                font-weight: 700
+        &__subtitle
+            font-weight: 400
+            font-size: 32rem
+            text-align: center
+            color: #FFFFFF
+            margin-top: 25rem
+    &-btn
+        width: 360rem
+        height: 77rem
+        background: linear-gradient(180deg, #FFDF6B 49.38%, #FFD84F 93.67%, #FFDA58 100%)
+        box-shadow: 0 1rem 10rem #FDDF74
+        border-radius: 5rem
+        font-weight: 700
+        font-size: 20rem
+        text-align: center
+        color: #000000
+        display: block
+        margin: 100rem auto 0 auto
+        transition: 0.4s
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+            box-shadow: none
+            
+    &-info
+        width: 100%
+        display: flex
+        justify-content: space-between
+        margin-top: 75rem
+        &__block
+            display: flex
+            margin-right: 40rem
+            padding-left: 35rem
+            &:last-child
+                margin-right: 0
+            &-text
+                font-weight: 400
+                font-size: 16rem
+                line-height: 15rem
+                color: #FFFFFF
+                position: relative
+                &::before
+                    content: ''
+                    width: 40rem
+                    height: 40rem
+                    position: absolute
+                    background: url(../img/basic/ellipse.png) center no-repeat
+                    background-size: 100% 100%
+                    top: -10rem
+                    left: -40rem

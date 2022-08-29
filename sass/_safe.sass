@@ -1,0 +1,62 @@
+.safe
+    background: #241916
+    padding-top: 100rem
+    &-container
+        width: 1400rem
+        display: flex
+        justify-content: space-between
+        margin: 0 auto
+    &-info
+        &__title
+            font-weight: 700
+            font-size: 35rem
+            color: #FDDF74
+        &__text
+            font-weight: 400
+            font-size: 24rem
+            line-height: 23rem
+            color: #FFFFFF
+            margin-top: 36rem
+            width: 695rem
+        &__btns
+            display: flex
+            margin-top: 170rem
+            &-btn
+                width: 300rem
+                height: 77rem
+                font-weight: 700
+                font-size: 20rem
+                color: #FFFFFF
+                text-align: center
+                transition: 0.4s
+            &-1
+                background: linear-gradient(180deg, #FDDF74 49.38%, #FFD53E 100%)
+                margin-right: 15rem
+                position: relative
+                display: flex
+                justify-content: center
+                align-items: center
+                &::before
+                    content: ''
+                    width: 100%
+                    height: 100%
+                    position: absolute
+                    top: 0
+                    left: 0
+                    background: #000000
+                    opacity: 0
+                    transition: 0.4s
+                &:hover
+                    &::before
+                        opacity: 0.2
+            &-2
+                border: 3rem solid #FFCF25
+                background: #241916
+                &:hover
+                    border: 3rem solid #dfb622
+    &-img
+        width: 582rem
+        height: 430rem
+        img
+            width: 100%
+            height: 100%

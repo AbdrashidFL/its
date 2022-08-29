@@ -1,0 +1,93 @@
+.header
+    background: #19120F
+    padding: 20rem 0
+    &-container
+        width: 1140rem
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &-logo
+        width: 91rem
+        height: 68rem
+        img
+            width: 100%
+            height: 100%
+    &-nav
+        display: flex
+        &__link
+            font-weight: 400
+            font-size: 16rem
+            color: #FFFFFF
+            display: flex
+            margin-right: 35rem
+            transition: 0.4s
+            &:last-child
+                margin-right: 0
+            &:hover
+                color: #FDDF74
+            &:hover
+                svg
+                    path
+                        stroke: #FDDF74
+            svg
+                width: 11rem
+                height: 14rem
+                margin-top: 3rem
+                margin-left: 3rem
+                transform: rotate(-90deg)
+                path
+                    transition: 0.4s
+                    stroke: #666666
+        &__lang
+            position: relative
+            &:hover .header-nav__lang-block
+                opacity: 1
+                z-index: auto
+            &-block
+                position: absolute
+                left: 0
+                padding-top: 15rem
+                transition: 0.4s
+                opacity: 0
+                z-index: -10
+                &-link
+                    display: block
+                    font-weight: 400
+                    font-size: 14rem
+                    color: #000
+                    margin-right: 35rem
+                    transition: 0.4s
+                    padding: 15rem 30rem 15rem 10rem
+                    background: #FFF7EF
+                    margin-right: 0
+                    border-bottom: 1rem solid #000
+                    &:hover
+                        background: #e8e0d8
+                    &:last-child
+                        border-bottom: 0
+    &-contact
+        &__num
+            font-weight: 400
+            font-size: 24rem
+            color: #FFFFFF
+            text-align: right
+            display: block
+            margin-bottom: 5rem
+            transition: 0.4s
+            &:hover
+                color: #FDDF74
+                
+        &__call
+            text-align: right
+            font-weight: 400
+            font-size: 20rem
+            color: #FDDF74
+            text-decoration-line: underline
+            transition: 0.4s
+            cursor: pointer
+            width: max-content
+            margin: 0 0 0 auto
+            &:hover
+                color: #d6ba57
+        
